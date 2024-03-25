@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YW9KArr00MV7NQ9kSRJhVrvh6CoIzRGcyudt+KmAh2YSTT7Fmwaa1x5pSK9MFUifSJmgdV3pRRSYzt0605PYSQ==",
+  "dgSpecHash": "NYUA9822uRguW1bQX6nbCVxfri6kwTcrDxPPKFwsuEGC4zzkb7/06DmFGaRiVDEvjlsNnZFVZa4v6FG6mmxFMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\projetoS7\\projetoS7.csproj",
   "expectedPackageFiles": [
@@ -21,10 +21,11 @@
     "C:\\Users\\Inteli\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.0\\microsoft.extensions.options.configurationextensions.3.1.0.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
-    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry\\1.5.0\\opentelemetry.1.5.0.nupkg.sha512",
-    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.api\\1.5.0\\opentelemetry.api.1.5.0.nupkg.sha512",
-    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.5.0\\opentelemetry.api.providerbuilderextensions.1.5.0.nupkg.sha512",
+    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry\\1.5.1\\opentelemetry.1.5.1.nupkg.sha512",
+    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.api\\1.5.1\\opentelemetry.api.1.5.1.nupkg.sha512",
+    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.5.1\\opentelemetry.api.providerbuilderextensions.1.5.1.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.exporter.console\\1.5.0\\opentelemetry.exporter.console.1.5.0.nupkg.sha512",
+    "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.exporter.jaeger\\1.5.1\\opentelemetry.exporter.jaeger.1.5.1.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.5.0\\opentelemetry.exporter.opentelemetryprotocol.1.5.0.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.exporter.prometheus.aspnetcore\\1.5.0-rc.1\\opentelemetry.exporter.prometheus.aspnetcore.1.5.0-rc.1.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.5.0\\opentelemetry.extensions.hosting.1.5.0.nupkg.sha512",
@@ -33,7 +34,8 @@
     "C:\\Users\\Inteli\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.0\\system.diagnostics.diagnosticsource.7.0.0.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Inteli\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\Inteli\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\Inteli\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Inteli\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

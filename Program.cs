@@ -27,9 +27,10 @@ otel.WithMetrics(metrics => metrics
 // Add Tracing for ASP.NET Core and our custom ActivitySource and export to Jaeger
 otel.WithTracing(tracing =>
 {
-    tracing.AddAspNetCoreInstrumentation();
-    tracing.AddHttpClientInstrumentation();
-    tracing.AddSource(greeterActivitySource.Name);
+    tracing.AddAspNetCoreInstrumentation()
+           .AddHttpClientInstrumentation()
+           .AddSource(greeterActivitySource.Name);
+
     if (tracingOtlpEndpoint != null)
     {
         tracing.AddOtlpExporter(otlpOptions =>
@@ -37,10 +38,14 @@ otel.WithTracing(tracing =>
             otlpOptions.Endpoint = new Uri(tracingOtlpEndpoint);
         });
     }
-    else
+
+    tracing.AddJaegerExporter(jaegerOptions =>
     {
-        tracing.AddConsoleExporter();
-    }
+        jaegerOptions.AgentHost = "localhost";
+        jaegerOptions.AgentPort = 6831;
+    });
+
+    tracing.AddConsoleExporter();
 });
 
 var app = builder.Build();
